@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agent4Life homepage mocks r1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111111;--black:#0b0b0b;--paper:#ffffff;--grey:#f3f3f2;--mid:#6b6b6b;--line:#dcdcda;--red:#bf0811;--red-deep:#a8202b}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Archivo,Inter,system-ui,sans-serif;color:var(--ink);background:#e4e4e2;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+.label{position:sticky;top:0;z-index:50;background:#ffe600;color:#111;font:700 13px/1 Archivo;letter-spacing:.08em;text-transform:uppercase;padding:12px 20px;display:flex;gap:24px;align-items:center}
+.label span{font-weight:400;letter-spacing:0;text-transform:none;font-size:13px}
+.mock{background:var(--paper);margin:0 0 60px;overflow:hidden}
+.wrap{width:min(1180px,calc(100% - 48px));margin:0 auto}
+.btn{display:inline-block;font-weight:700;font-size:15px;padding:14px 22px;border:2px solid currentColor;line-height:1}
+.btn.red{background:var(--red);border-color:var(--red);color:#fff}
+.btn.white{background:#fff;border-color:#fff;color:#111}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+h1,h2,h3{line-height:1;letter-spacing:-.02em;font-weight:800}
+.small{font-size:14px;color:var(--mid)}
+footer{background:var(--black);color:#c9c9c6;padding:56px 0 32px;font-size:14px}
+footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}
+footer img{width:190px;margin-bottom:20px}
+footer strong{color:#fff;display:block;margin-bottom:10px;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+footer a{display:block;padding:3px 0}
+footer .fine{grid-column:1/-1;border-top:1px solid #2a2a2a;padding-top:20px;font-size:12px;color:#777;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.quote{font-size:19px;line-height:1.45;font-weight:500}
+.quote cite{display:block;font-style:normal;font-size:13px;color:var(--mid);margin-top:14px;font-weight:600}
+
+/* ============ A : THE TRUCK ============ */
+.a header{background:var(--black);color:#fff}
+.a header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+.a header img{width:170px}
+.a nav{display:flex;gap:28px;font-size:14px;font-weight:600}
+.a nav .btn{padding:10px 16px;font-size:13px}
+.a .hero{background:var(--black);color:#fff;position:relative;min-height:720px;display:grid;align-items:end}
+.a .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.a .hero .wrap{position:relative;padding:120px 0 64px}
+.a .hero h1{font-size:clamp(52px,8vw,112px);font-stretch:85%;letter-spacing:-.03em;max-width:12ch;text-transform:uppercase}
+.a .hero h1 em{font-style:normal;color:var(--red)}
+.a .hero p{max-width:46ch;font-size:19px;margin:28px 0 32px;color:#e6e6e3}
+.a .stats{background:var(--red);color:#fff}
+.a .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.a .stats div{padding:26px 24px 26px 0;border-right:1px solid rgba(255,255,255,.35)}
+.a .stats div+div{padding-left:24px}
+.a .stats div:last-child{border:0}
+.a .stats b{display:block;font-size:40px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.a .stats span{font-size:13px;opacity:.9}
+.a .listings{padding:88px 0}
+.a .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:36px}
+.a .head h2{font-size:44px}
+.a .grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:20px}
+.a .card{position:relative;background:#111;color:#fff;aspect-ratio:4/3;overflow:hidden}
+.a .card:first-child{grid-row:span 2;aspect-ratio:auto}
+.a .card img{width:100%;height:100%;object-fit:cover;opacity:.9}
+.a .card div{position:absolute;left:0;right:0;bottom:0;padding:22px;background:linear-gradient(transparent,rgba(0,0,0,.85))}
+.a .card b{font-size:28px;display:block;letter-spacing:-.02em}
+.a .card:first-child b{font-size:44px}
+.a .card span{font-size:14px;color:#ddd}
+.a .about{background:var(--grey);padding:96px 0}
+.a .about .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:72px;align-items:center}
+.a .about h2{font-size:52px;margin:14px 0 24px}
+.a .about p{font-size:17px;margin-bottom:18px;max-width:56ch}
+.a .about img{width:100%}
+.a .communities{padding:88px 0}
+.a .communities h2{font-size:44px;margin-bottom:36px}
+.a .cities{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.a .cities a{display:block}
+.a .cities img{aspect-ratio:1;object-fit:cover;filter:saturate(.7)}
+.a .cities b{display:block;margin-top:10px;font-size:16px}
+.a .cities span{font-size:12px;color:var(--mid)}
+.a .proof{background:var(--black);color:#fff;padding:96px 0}
+.a .proof .wrap{display:grid;grid-template-columns:1fr 1fr 1fr;gap:48px}
+.a .proof .quote cite{color:#9a9a97}
+.a .proof h2{grid-column:1/-1;font-size:44px;margin-bottom:8px}
+
+/* ============ B : THE NAME ============ */
+.b{background:#fafaf9}
+.b header .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;border-bottom:1px solid var(--line)}
+.b header .logo{background:var(--black);padding:12px 16px}
+.b header .logo img{width:150px}
+.b nav{display:flex;gap:26px;font-size:14px;font-weight:600}
+.b .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:56px;align-items:end;padding:64px 0 0}
+.b .hero h1{font-size:clamp(60px,9vw,128px);letter-spacing:-.04em;line-height:.92}
+.b .hero h1 small{display:block;font-size:.32em;font-weight:600;letter-spacing:0;color:var(--mid);margin-bottom:20px}
+.b .hero .promise{font-size:24px;font-weight:600;margin:32px 0 28px;max-width:26ch;line-height:1.25}
+.b .hero .promise em{font-style:normal;color:var(--red)}
+.b .hero .ctas{display:flex;gap:12px;margin-bottom:64px}
+.b .hero .btn{border-color:var(--ink)}
+.b .portrait{background:var(--red);position:relative}
+.b .portrait img{width:100%;aspect-ratio:1/1.15;object-fit:cover;object-position:top;mix-blend-mode:multiply;filter:grayscale(1) contrast(1.05)}
+.b .portrait figcaption{position:absolute;left:20px;bottom:18px;color:#fff;font-size:13px;font-weight:600;line-height:1.35}
+.b .creds{border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}
+.b .creds .wrap{display:flex;gap:0;justify-content:space-between;padding:18px 0;font-size:14px;font-weight:600}
+.b .creds span b{color:var(--red)}
+.b .ledger{padding:96px 0 80px}
+.b .ledger h2{font-size:15px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:8px}
+.b .ledger .lead{font-size:40px;letter-spacing:-.03em;font-weight:800;margin-bottom:40px}
+.b .row{display:grid;grid-template-columns:120px 1.4fr 1fr 1fr auto;gap:24px;align-items:center;padding:18px 0;border-top:1px solid var(--line)}
+.b .row:last-of-type{border-bottom:1px solid var(--line)}
+.b .row img{aspect-ratio:3/2;object-fit:cover}
+.b .row .addr{font-size:20px;font-weight:700;letter-spacing:-.01em}
+.b .row .addr span{display:block;font-size:14px;font-weight:400;color:var(--mid)}
+.b .row .price{font-size:24px;font-weight:800;letter-spacing:-.02em}
+.b .row .meta{font-size:14px;color:var(--mid)}
+.b .row .st{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.b .row .st.sold{color:var(--red)}
+.b .band{position:relative;min-height:560px;background:var(--black);color:#fff;display:grid;align-items:center}
+.b .band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.45}
+.b .band .wrap{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:80px 0}
+.b .band h2{font-size:56px;letter-spacing:-.03em;max-width:12ch}
+.b .band p{font-size:18px;max-width:44ch;align-self:end;color:#e8e8e5}
+.b .story{padding:96px 0}
+.b .story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:72px}
+.b .story h2{font-size:44px;letter-spacing:-.03em;line-height:1.05}
+.b .story p{font-size:17px;margin-bottom:18px}
+.b .story .more{font-weight:700;border-bottom:2px solid var(--red);display:inline-block;margin-top:6px}
+.b .split{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line)}
+.b .split>div{padding:72px 0}
+.b .split .inner{width:min(540px,calc(100% - 48px));margin:0 auto}
+.b .split h3{font-size:26px;margin-bottom:22px}
+.b .split ul{list-style:none;columns:2;font-size:17px;font-weight:600}
+.b .split li{padding:8px 0;border-bottom:1px solid var(--line)}
+.b .split li span{display:block;font-size:12px;font-weight:400;color:var(--mid)}
+.b .split .dark{background:var(--grey)}
+.b .split .quote+.quote{margin-top:28px;padding-top:28px;border-top:1px solid var(--line)}
+
+/* ============ C : THE LISTING ============ */
+.c header{position:absolute;left:0;right:0;top:0;z-index:5;color:#fff}
+.c header .wrap{display:flex;align-items:center;justify-content:space-between;height:84px}
+.c header img{width:170px}
+.c nav{display:flex;gap:26px;font-size:14px;font-weight:600}
+.c .hero{position:relative;min-height:820px;color:#fff;background:#000;display:grid;align-items:end}
+.c .hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.c .hero .wrap{position:relative;padding:0 0 180px;display:grid;grid-template-columns:1fr auto;align-items:end;gap:40px}
+.c .hero .tag{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:var(--red);display:inline-block;padding:8px 12px;margin-bottom:22px}
+.c .hero h1{font-size:clamp(48px,7vw,96px);letter-spacing:-.035em;max-width:14ch}
+.c .hero .sub{font-size:18px;margin-top:20px;color:#e5e5e2;max-width:52ch}
+.c .hero .price{text-align:right}
+.c .hero .price b{display:block;font-size:64px;letter-spacing:-.04em;line-height:1}
+.c .hero .price span{font-size:15px;color:#ddd}
+.c .hero .price .btn{margin-top:18px}
+.c .who{padding:0}
+.c .who .wrap{display:grid;grid-template-columns:260px 1fr auto;gap:48px;align-items:center;padding:40px 0;border-bottom:1px solid var(--line)}
+.c .who img{width:260px;aspect-ratio:1;object-fit:cover;object-position:top;margin-top:-120px;position:relative;z-index:2;outline:6px solid #fff}
+.c .who h2{font-size:34px;letter-spacing:-.03em;margin-bottom:8px}
+.c .who p{font-size:17px;max-width:60ch;color:#333}
+.c .who .facts{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;line-height:2;color:var(--mid);white-space:nowrap}
+.c .who .facts b{color:var(--red)}
+.c .list{padding:80px 0}
+.c .list .head{display:flex;justify-content:space-between;align-items:end;margin-bottom:32px}
+.c .list h2{font-size:44px;letter-spacing:-.03em}
+.c .tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.c .tile img{aspect-ratio:4/3;object-fit:cover;background:#ddd}
+.c .tile b{display:block;font-size:22px;margin-top:12px;letter-spacing:-.02em}
+.c .tile span{display:block;font-size:14px;color:var(--mid)}
+.c .tile .sold{color:var(--red);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+.c .promise{background:var(--red);color:#fff;padding:72px 0}
+.c .promise .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.c .promise h2{font-size:clamp(40px,5vw,64px);letter-spacing:-.035em;line-height:.98}
+.c .promise p{font-size:17px;max-width:44ch}
+.c .promise .btn{margin-top:22px}
+.c .truck{display:grid;grid-template-columns:1fr 1fr}
+.c .truck img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.c .truck div{padding:72px;display:grid;align-content:center;background:var(--grey)}
+.c .truck h2{font-size:38px;letter-spacing:-.03em;margin:12px 0 18px}
+.c .truck p{font-size:17px;max-width:44ch;margin-bottom:12px}
+.c .areas{padding:80px 0}
+.c .areas .wrap{display:grid;grid-template-columns:1fr 2fr;gap:56px}
+.c .areas h2{font-size:38px;letter-spacing:-.03em}
+.c .areas ol{list-style:none;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px 32px}
+.c .areas li{font-size:22px;font-weight:700;padding:14px 0;border-bottom:2px solid var(--ink)}
+.c .areas li span{display:block;font-size:13px;font-weight:400;color:var(--mid)}
+.c .proof{background:var(--grey);padding:80px 0}
+.c .proof .wrap{display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px}
+.c .proof h2{grid-column:1/-1;font-size:15px;letter-spacing:.12em;text-transform:uppercase}
+
+@media (max-width:900px){
+ .a .stats .wrap,.a .grid,.a .about .wrap,.a .proof .wrap,.b .hero .wrap,.b .band .wrap,.b .story .wrap,.b .split,.c .hero .wrap,.c .who .wrap,.c .promise .wrap,.c .truck,.c .areas .wrap,.c .proof .wrap,footer .wrap{grid-template-columns:1fr}
+ .a .cities,.c .tiles{grid-template-columns:1fr 1fr}
+ nav{display:none!important}
+ .a .card:first-child{grid-row:auto}
+ .b .row{grid-template-columns:100px 1fr;gap:10px 18px}
+ .b .row .price,.b .row .meta,.b .row .st{grid-column:2}
+ .b .creds .wrap{flex-wrap:wrap;gap:10px 24px}
+ .b .hero h1 small{font-size:clamp(16px,4.5vw,40px)}
+ .b .split ul{columns:1}
+ .c .areas ol{grid-template-columns:1fr}
+ .c .truck div{padding:48px 24px}
+ .c .hero .price b{font-size:48px}
+ .c .hero .price{text-align:left}
+ .c .who img{margin-top:0}
+ .c .hero .wrap{padding-bottom:48px}
+}
+</style>
+</head>
+<body>
+
+<!-- =================== A =================== -->
+<div class="label">Option A — The Truck <span>Dark hero on the truck photo, tagline as the headline, red stat bar. Loud, like his marketing.</span></div>
+<div class="mock a">
+<header><div class="wrap"><img src="../implementation/assets/img/agent4life-logo.png" alt="Agent 4 Life"><nav><a>Listings</a><a>Sellers</a><a>Buyers</a><a>Communities</a><a>About</a><a>Team</a><a class="btn red">What's my home worth</a></nav></div></header>
+<section class="hero">
+ <img src="../implementation/assets/img/truck-dusk.jpg" alt="">
+ <div class="wrap">
+  <h1>Superior service is not an option. <em>It's a promise.</em></h1>
+  <p>Emad Basma. 22 years a Santa Clara County deputy sheriff, 20 years selling homes in Tracy. Founder of Agent4Life Realty. Team Basma lists to sell.</p>
+  <a class="btn red">Get your home's value</a> &nbsp; <a class="btn white">See our listings</a>
+ </div>
+</section>
+<section class="stats"><div class="wrap">
+ <div><b>22 yrs</b><span>Santa Clara County Sheriff's Office</span></div>
+ <div><b>2004</b><span>Licensed Realtor since · DRE #01441193</span></div>
+ <div><b>Top 1%</b><span>Masters Club, 10+ years running</span></div>
+ <div><b>$3.65M</b><span>Highest active listing, Tracy</span></div>
+</div></section>
+<section class="listings"><div class="wrap">
+ <div class="head"><div><div class="eyebrow">Active</div><h2>Listed by Agent4Life</h2></div><a class="btn">All listings</a></div>
+ <div class="grid">
+  <a class="card"><img src="../implementation/assets/img/listing-waterwell.jpg" alt=""><div><b>$3,650,000</b><span>8324 Waterwell Way, Tracy · 7 bd · 6½ ba · 7,004 sq ft · gated, 1.17 ac, 6-car garage</span></div></a>
+  <a class="card"><img src="../implementation/assets/img/listing-parkplace.jpg" alt=""><div><b>$1,999,900</b><span>32521 S Koster Rd, Tracy · 5 bd · 4½ ba · 4,860 sq ft</span></div></a>
+  <a class="card"><img src="../implementation/assets/img/listing-shrute.jpg" alt=""><div><b>$1,049,000</b><span>3242 Shrute Dr, Lathrop · 5 bd · 4½ ba · 3,682 sq ft</span></div></a>
+  <a class="card"><img src="../implementation/assets/img/listing-roger.jpg" alt=""><div><b>$849,900</b><span>1847 Outrigger Ln, Lathrop · 5 bd · 4½ ba · 4,065 sq ft</span></div></a>
+  <a class="card"><img src="../implementation/assets/img/listing-veranda.jpg" alt=""><div><b>$739,000</b><span>1892 Placid Dr, Tracy · 5 bd · 3 ba · 2,479 sq ft</span></div></a>
+ </div>
+</div></section>
+<section class="about"><div class="wrap">
+ <img src="../implementation/assets/img/emad-portrait.jpg" alt="Emad Basma">
+ <div>
+  <div class="eyebrow">Emad Basma · Broker, Founder</div>
+  <h2>Twenty-two years protecting this community. Twenty selling it homes.</h2>
+  <p>Emad retired from the Santa Clara County Sheriff's Office and put the same discipline into real estate. He has been a Masters Club producer for more than a decade and ranks in the top 1% of Realtors nationwide.</p>
+  <p>He works primarily with sellers. His listings get the billboard truck, the open-house reels, the signs, and him in the doorway every weekend. Clients come back, and they send their families. That's the name.</p>
+  <a class="btn">Meet Emad and Team Basma</a>
+ </div>
+</div></section>
+<section class="communities"><div class="wrap">
+ <h2>Where we sell</h2>
+ <div class="cities">
+  <a><img src="../implementation/assets/img/city-tracy.jpg" alt=""><b>Tracy</b><span>Home base · 35 E 10th St</span></a>
+  <a><img src="../implementation/assets/img/city-mountain-house.jpg" alt=""><b>Mountain House</b><span>San Joaquin County</span></a>
+  <a><img src="../implementation/assets/img/city-lathrop.jpg" alt=""><b>Lathrop</b><span>River Islands</span></a>
+  <a><img src="../implementation/assets/img/city-manteca.jpg" alt=""><b>Manteca</b><span>San Joaquin County</span></a>
+  <a><img src="../implementation/assets/img/city-dublin.jpg" alt=""><b>Dublin</b><span>Tri-Valley</span></a>
+  <a><img src="../implementation/assets/img/city-livermore.jpg" alt=""><b>Livermore</b><span>Tri-Valley</span></a>
+ </div>
+</div></section>
+<section class="proof"><div class="wrap">
+ <h2>Agent for life. Their words.</h2>
+ <div class="quote">"Emad is great! You can trust him. He is available at all times, quick to answer, and communicates every step of the process. I 100% recommend him."<cite>Angelina Lopez Luviano · sold with Emad</cite></div>
+ <div class="quote">"Emad and his team have really taken care of us throughout the years. Helped us sell our home and just got us into our forever home. Agent for life for sure."<cite>Mai Lam · sold and bought</cite></div>
+ <div class="quote">"Extremely knowledgeable, trustworthy and committed. They went above and beyond and consistently showed respectful superior service at every opportunity."<cite>Karen · bought and sold</cite></div>
+</div></section>
+<footer><div class="wrap">
+ <div><img src="../implementation/assets/img/agent4life-logo.png" alt="Agent 4 Life"><p>Agent4Life Realty<br>35 East 10th Street, Tracy, CA 95376<br><a>209.914.4751</a><a>superiorservicerealtor@gmail.com</a></p></div>
+ <div><strong>Site</strong><a>Listings</a><a>Sellers</a><a>Buyers</a><a>Communities</a><a>About</a><a>Team</a><a>Contact</a></div>
+ <div><strong>Follow</strong><a>Instagram</a><a>Facebook</a><a>YouTube</a><a>Zillow</a><a>Yelp</a></div>
+ <div class="fine"><span>Emad Basma · DRE #01441193 · Agent4Life Realty</span><span>Equal Housing Opportunity · Privacy</span></div>
+</div></footer>
+</div>
+
+<!-- =================== B =================== -->
+<div class="label">Option B — The Name <span>Light page, his name as the headline, portrait on a red block, listings as a ledger instead of cards, truck as a mid-page band.</span></div>
+<div class="mock b">
+<header><div class="wrap"><div class="logo"><img src="../implementation/assets/img/agent4life-logo.png" alt="Agent 4 Life"></div><nav><a>Listings</a><a>Sellers</a><a>Buyers</a><a>Communities</a><a>About</a><a>Team</a><a class="btn red">Home value</a></nav></div></header>
+<section class="hero"><div class="wrap">
+ <div>
+  <h1><small>Tracy, California · Est. 2004</small>Emad Basma</h1>
+  <p class="promise">Superior service is not an option. <em>It's a promise.</em></p>
+  <div class="ctas"><a class="btn red">What's my home worth</a><a class="btn">Talk to Emad</a></div>
+ </div>
+ <figure class="portrait"><img src="../implementation/assets/img/emad-portrait.jpg" alt="Emad Basma"><figcaption>Broker · Founder, Agent4Life Realty<br>Retired Deputy Sheriff, Santa Clara County</figcaption></figure>
+</div></section>
+<section class="creds"><div class="wrap">
+ <span><b>22 years</b> law enforcement</span><span><b>20+ years</b> in real estate</span><span><b>Top 1%</b> nationwide · Masters Club</span><span><b>$3.65M</b> current top listing</span><span><b>DRE</b> #01441193</span>
+</div></section>
+<section class="ledger"><div class="wrap">
+ <h2>Listings</h2>
+ <div class="lead">Nine active. Five sold this year. All Team Basma.</div>
+ <div class="row"><img src="../implementation/assets/img/listing-waterwell.jpg" alt=""><div class="addr">8324 Waterwell Way<span>Tracy, CA 95304 · gated · 1.17 acres</span></div><div class="price">$3,650,000</div><div class="meta">7 bd · 6½ ba · 7,004 sq ft</div><div class="st">For sale</div></div>
+ <div class="row"><img src="../implementation/assets/img/listing-parkplace.jpg" alt=""><div class="addr">32521 S Koster Road<span>Tracy, CA 95304 · open Sun 1–4</span></div><div class="price">$1,999,900</div><div class="meta">5 bd · 4½ ba · 4,860 sq ft</div><div class="st">For sale</div></div>
+ <div class="row"><img src="../implementation/assets/img/listing-shrute.jpg" alt=""><div class="addr">3242 Shrute Drive<span>Lathrop, CA 95330 · River Islands</span></div><div class="price">$1,049,000</div><div class="meta">5 bd · 4½ ba · 3,682 sq ft</div><div class="st">For sale</div></div>
+ <div class="row"><img src="../implementation/assets/img/listing-veranda.jpg" alt=""><div class="addr">1417 Sentinel Drive<span>Tracy, CA 95304 · open Sun 1–4</span></div><div class="price">$699,000</div><div class="meta">4 bd · 2½ ba · 2,003 sq ft</div><div class="st">For sale</div></div>
+ <div class="row"><img src="../implementation/assets/img/listing-roger.jpg" alt=""><div class="addr">8336 Park Place<span>Tracy, CA 95304 · listed $1,899,900</span></div><div class="price">$1,800,000</div><div class="meta">4 bd · 3½ ba · 4,293 sq ft</div><div class="st sold">Sold</div></div>
+ <p style="margin-top:28px"><a class="btn">All listings and solds</a></p>
+</div></section>
+<section class="band">
+ <img src="../implementation/assets/img/truck-pacheco.jpg" alt="">
+ <div class="wrap"><h2>Your listing, on the truck, on the street.</h2><p>Every Agent4Life listing gets the LED billboard truck at the open house and around town, the red signs, the reels, and Emad in the doorway. Nobody else in Tracy markets a home like this.</p></div>
+</section>
+<section class="story"><div class="wrap">
+ <h2>Twenty-two years a deputy sheriff. Twenty years selling homes. Same job: look after people.</h2>
+ <div>
+  <p>Emad retired from the Santa Clara County Sheriff's Office and put the same discipline into real estate. Masters Club for more than a decade, top 1% of Realtors nationwide, Certified Distressed Property Expert.</p>
+  <p>He built Agent4Life Realty around a family: his daughter Sonya, his son Nizar, and a team that answers the phone. Clients come back, and they send their families. That's the name.</p>
+  <a class="more">About Emad and Team Basma</a>
+ </div>
+</div></section>
+<section class="split">
+ <div><div class="inner"><h3>Where we sell</h3><ul>
+  <li>Tracy<span>Home base</span></li><li>Mountain House</li><li>Lathrop<span>River Islands</span></li><li>Manteca</li><li>Dublin<span>Tri-Valley</span></li><li>Livermore<span>Tri-Valley</span></li>
+ </ul></div></div>
+ <div class="dark"><div class="inner">
+  <div class="quote">"Emad is great! You can trust him. Available at all times, quick to answer, communicates every step of the process. I 100% recommend him."<cite>Angelina Lopez Luviano</cite></div>
+  <div class="quote">"Helped us sell our home and just got us into our forever home. Agent for life for sure."<cite>Mai Lam</cite></div>
+ </div></div>
+</section>
+<footer><div class="wrap">
+ <div><img src="../implementation/assets/img/agent4life-logo.png" alt="Agent 4 Life"><p>Agent4Life Realty<br>35 East 10th Street, Tracy, CA 95376<br><a>209.914.4751</a><a>superiorservicerealtor@gmail.com</a></p></div>
+ <div><strong>Site</strong><a>Listings</a><a>Sellers</a><a>Buyers</a><a>Communities</a><a>About</a><a>Team</a><a>Contact</a></div>
+ <div><strong>Follow</strong><a>Instagram</a><a>Facebook</a><a>YouTube</a><a>Zillow</a><a>Yelp</a></div>
+ <div class="fine"><span>Emad Basma · DRE #01441193 · Agent4Life Realty</span><span>Equal Housing Opportunity · Privacy</span></div>
+</div></footer>
+</div>
+
+<!-- =================== C =================== -->
+<div class="label">Option C — The Listing <span>The $3.65M house is the hero. Emad is introduced right under it. Red promise block, truck split, communities as a list.</span></div>
+<div class="mock c" style="position:relative">
+<header><div class="wrap"><img src="../implementation/assets/img/agent4life-logo.png" alt="Agent 4 Life"><nav><a>Listings</a><a>Sellers</a><a>Buyers</a><a>Communities</a><a>About</a><a>Team</a><a class="btn white">Home value</a></nav></div></header>
+<section class="hero">
+ <img src="../implementation/assets/img/listing-waterwell.jpg" alt="">
+ <div class="wrap">
+  <div>
+   <div class="tag">Just listed · Tracy</div>
+   <h1>8324 Waterwell Way</h1>
+   <p class="sub">Seven bedrooms, 7,004 square feet, 1.17 gated acres, six-car garage, 61 paid solar panels, pool and spa. Listed by Emad Basma, Agent4Life Realty.</p>
+  </div>
+  <div class="price"><b>$3,650,000</b><span>7 bd · 6½ ba · 7,004 sq ft</span><br><a class="btn white">Tour this home</a></div>
+ </div>
+</section>
+<section class="who"><div class="wrap">
+ <img src="../implementation/assets/img/emad-portrait.jpg" alt="Emad Basma">
+ <div><h2>Emad Basma, Broker and Founder</h2><p>Twenty-two years a Santa Clara County deputy sheriff. Twenty years selling homes in Tracy and the Tri-Valley. Masters Club for over a decade, top 1% nationwide. Superior service is not an option. It's a promise.</p></div>
+ <div class="facts">DRE <b>#01441193</b><br>Since <b>2004</b><br>Tracy, <b>CA</b></div>
+</div></section>
+<section class="list"><div class="wrap">
+ <div class="head"><h2>More from Team Basma</h2><a class="btn">All listings</a></div>
+ <div class="tiles">
+  <a class="tile"><img src="../implementation/assets/img/listing-parkplace.jpg" alt=""><b>$1,999,900</b><span>32521 S Koster Rd, Tracy · 5 bd · 4½ ba</span></a>
+  <a class="tile"><img src="../implementation/assets/img/listing-shrute.jpg" alt=""><b>$1,049,000</b><span>3242 Shrute Dr, Lathrop · 5 bd · 4½ ba</span></a>
+  <a class="tile"><img src="../implementation/assets/img/listing-veranda.jpg" alt=""><b>$739,000</b><span>1892 Placid Dr, Tracy · 5 bd · 3 ba</span></a>
+  <a class="tile"><img src="../implementation/assets/img/listing-roger.jpg" alt=""><span class="sold">Sold · $1,800,000</span><b>8336 Park Place</b><span>Tracy · 4 bd · 3½ ba · 4,293 sq ft</span></a>
+ </div>
+</div></section>
+<section class="promise"><div class="wrap">
+ <h2>Superior service is not an option. It's a promise.</h2>
+ <div><p>Thinking about selling? Emad will walk the house with you, tell you what it's worth today, and show you exactly how Team Basma would market it. No pressure, no script.</p><a class="btn white">What's my home worth</a></div>
+</div></section>
+<section class="truck">
+ <img src="../implementation/assets/img/truck-dusk.jpg" alt="">
+ <div><div class="eyebrow">How we market</div><h2>The billboard truck</h2><p>A black box truck with LED screens on three sides. It parks at your open house and drives your listing around Tracy. Then the reels, the red signs, and Emad in the doorway every weekend.</p><p class="small">Also seen: Team Basma's TV ad at the Tracy DMV.</p></div>
+</section>
+<section class="areas"><div class="wrap">
+ <div><h2>Where we sell</h2><p class="small" style="margin-top:12px">Home base in Tracy. Regular listings across San Joaquin County and the Tri-Valley.</p></div>
+ <ol><li>Tracy<span>Home base</span></li><li>Mountain House</li><li>Lathrop<span>River Islands</span></li><li>Manteca</li><li>Dublin<span>Tri-Valley</span></li><li>Livermore<span>Tri-Valley</span></li></ol>
+</div></section>
+<section class="proof"><div class="wrap">
+ <h2>Agent for life</h2>
+ <div class="quote">"You can trust him. Available at all times, quick to answer, communicates every step of the process."<cite>Angelina Lopez Luviano</cite></div>
+ <div class="quote">"Helped us sell our home and just got us into our forever home. Agent for life for sure."<cite>Mai Lam</cite></div>
+ <div class="quote">"Consistently showed respectful superior service at every opportunity. No task too small or too big."<cite>Karen</cite></div>
+</div></section>
+<footer><div class="wrap">
+ <div><img src="../implementation/assets/img/agent4life-logo.png" alt="Agent 4 Life"><p>Agent4Life Realty<br>35 East 10th Street, Tracy, CA 95376<br><a>209.914.4751</a><a>superiorservicerealtor@gmail.com</a></p></div>
+ <div><strong>Site</strong><a>Listings</a><a>Sellers</a><a>Buyers</a><a>Communities</a><a>About</a><a>Team</a><a>Contact</a></div>
+ <div><strong>Follow</strong><a>Instagram</a><a>Facebook</a><a>YouTube</a><a>Zillow</a><a>Yelp</a></div>
+ <div class="fine"><span>Emad Basma · DRE #01441193 · Agent4Life Realty</span><span>Equal Housing Opportunity · Privacy</span></div>
+</div></footer>
+</div>
+
+</body>
+</html>

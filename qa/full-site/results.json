@@ -1,0 +1,206 @@
+{
+  "pages": [
+    {
+      "width": 1280,
+      "route": "home",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "sellers",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "buyers",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "communities",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "about",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "team",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "testimonials",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "home-value",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "contact",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "privacy",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 1280,
+      "route": "listings",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "home",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "sellers",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "buyers",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "communities",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "about",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "team",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "testimonials",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "home-value",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "contact",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "privacy",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 390,
+      "route": "listings",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "home",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "sellers",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "buyers",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "communities",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "about",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "team",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "testimonials",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "home-value",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "contact",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "privacy",
+      "overflow": false,
+      "images": []
+    },
+    {
+      "width": 320,
+      "route": "listings",
+      "overflow": false,
+      "images": []
+    }
+  ],
+  "errors": [],
+  "properties": 14,
+  "redirects": 59,
+  "forms": "review only; no external send"
+}

@@ -1,0 +1,2 @@
+const {chromium}=require('C:/Users/mabac/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});const p=await b.newPage();for(const width of [1280,390,320]){await p.setViewportSize({width,height:900});await p.goto('http://127.0.0.1:8778/',{waitUntil:'networkidle'});await p.screenshot({path:`qa/hero-${width}.png`});}await b.close()})();

@@ -1,0 +1,8 @@
+# Local tooling and generated scratch files
+.claude/
+__pycache__/
+*.pyc
+qa/update-fixture/
+node_modules/
+.env
+.env.*

@@ -1,0 +1,726 @@
+[
+ {
+  "url": "/",
+  "title": "Tracy CA Real Estate | Agent4Life Realty",
+  "words": 828,
+  "forms": 3,
+  "images": 9,
+  "headings": [
+   "h1: Superior Service Is Not an OptionIt's a Promise.",
+   "h2: Emad Basma",
+   "h2: View Our Featured Listings",
+   "h2: Video Showcase",
+   "h2: Featured Communities",
+   "h2: Get in Touch"
+  ],
+  "snapshot": "reference/legacy-site/pages/home.html"
+ },
+ {
+  "url": "/about/",
+  "title": "Realtors in Tracy, CA | Agent4Life Realty",
+  "words": 707,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: About"
+  ],
+  "snapshot": "reference/legacy-site/pages/about.html"
+ },
+ {
+  "url": "/team/",
+  "title": "Meet the Team | Agent 4 Life",
+  "words": 866,
+  "forms": 1,
+  "images": 8,
+  "headings": [
+   "h1: Meet the Team"
+  ],
+  "snapshot": "reference/legacy-site/pages/team.html"
+ },
+ {
+  "url": "/agents/emad-basma/",
+  "title": "About Emad Basma | Agent 4 Life",
+  "words": 738,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Emad Basma",
+   "h2: Send Me A Message"
+  ],
+  "snapshot": "reference/legacy-site/pages/agents__emad-basma.html"
+ },
+ {
+  "url": "/agents/sonya-jones/",
+  "title": "About Sonya Jones | Agent 4 Life",
+  "words": 681,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Sonya Jones",
+   "h2: Send Me A Message"
+  ],
+  "snapshot": "reference/legacy-site/pages/agents__sonya-jones.html"
+ },
+ {
+  "url": "/agents/nizar-basma/",
+  "title": "About Nizar Basma | Agent 4 Life",
+  "words": 665,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Nizar Basma",
+   "h2: Send Me A Message"
+  ],
+  "snapshot": "reference/legacy-site/pages/agents__nizar-basma.html"
+ },
+ {
+  "url": "/agents/jamese-johnson/",
+  "title": "About Jamese Johnson | Agent 4 Life",
+  "words": 685,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Jamese Johnson",
+   "h2: Send Me A Message"
+  ],
+  "snapshot": "reference/legacy-site/pages/agents__jamese-johnson.html"
+ },
+ {
+  "url": "/agents/rosendo-serna/",
+  "title": "Rosendo Serna - Emad Basma, Agent4Life Realty",
+  "words": 632,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Rosendo Serna",
+   "h2: Send Me A Message"
+  ],
+  "snapshot": "reference/legacy-site/pages/agents__rosendo-serna.html"
+ },
+ {
+  "url": "/buyers/",
+  "title": "Buyer's Guide | Agent 4 Life",
+  "words": 569,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Deciding to Buy",
+   "h3: Why Do You Want To Buy?",
+   "h3: Has Your Income Grown?"
+  ],
+  "snapshot": "reference/legacy-site/pages/buyers.html"
+ },
+ {
+  "url": "/sellers/",
+  "title": "Sell Your House Fast in Tracy, CA | Agent4Life Realty",
+  "words": 758,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Deciding to Sell",
+   "h3: Why Sell?",
+   "h3: When Should I Sell?",
+   "h3: What Is The Market Like?",
+   "h3: How Do I Optimize My Finances?"
+  ],
+  "snapshot": "reference/legacy-site/pages/sellers.html"
+ },
+ {
+  "url": "/financing/",
+  "title": "Getting Started - Emad Basma, Agent4Life Realty",
+  "words": 671,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Getting Started",
+   "h3: Start A Green File",
+   "h3: Check Your Credit Rating",
+   "h3: Savings & Debt",
+   "h3: Toe The Line"
+  ],
+  "snapshot": "reference/legacy-site/pages/financing.html"
+ },
+ {
+  "url": "/what-is-my-home-worth/",
+  "title": "What is My Home Worth? - Emad Basma, Agent4Life Realty",
+  "words": 536,
+  "forms": 2,
+  "images": 3,
+  "headings": [
+   "h1: What is My Home Worth?"
+  ],
+  "snapshot": "reference/legacy-site/pages/what-is-my-home-worth.html"
+ },
+ {
+  "url": "/get-a-free-home-valuation/",
+  "title": "Free Home Valuation for Sellers | Agent4Life Realty",
+  "words": 628,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h2: What is my home worth?",
+   "h3: Emad Basma"
+  ],
+  "snapshot": "reference/legacy-site/pages/get-a-free-home-valuation.html"
+ },
+ {
+  "url": "/find-my-dream-home/",
+  "title": "Find My Dream Home! - Emad Basma, Agent4Life Realty",
+  "words": 537,
+  "forms": 2,
+  "images": 3,
+  "headings": [
+   "h1: Find My Dream Home!"
+  ],
+  "snapshot": "reference/legacy-site/pages/find-my-dream-home.html"
+ },
+ {
+  "url": "/help-me-relocate/",
+  "title": "Help Me Relocate! - Emad Basma, Agent4Life Realty",
+  "words": 527,
+  "forms": 2,
+  "images": 3,
+  "headings": [
+   "h1: Help Me Relocate!"
+  ],
+  "snapshot": "reference/legacy-site/pages/help-me-relocate.html"
+ },
+ {
+  "url": "/communities/",
+  "title": "Communities - Emad Basma, Agent4Life Realty",
+  "words": 380,
+  "forms": 1,
+  "images": 9,
+  "headings": [
+   "h1: Communities"
+  ],
+  "snapshot": "reference/legacy-site/pages/communities.html"
+ },
+ {
+  "url": "/community/tracy/",
+  "title": "Real Estate in Tracy, CA for Sellers | Agent4Life Realty",
+  "words": 2928,
+  "forms": 5,
+  "images": 162,
+  "headings": [
+   "h2: Tracy",
+   "h1: Tracy"
+  ],
+  "snapshot": "reference/legacy-site/pages/community__tracy.html"
+ },
+ {
+  "url": "/community/mountain-house/",
+  "title": "Mountain House, CA Real Estate | Agent4Life Realty",
+  "words": 3028,
+  "forms": 5,
+  "images": 162,
+  "headings": [
+   "h2: Mountain House",
+   "h1: Mountain House"
+  ],
+  "snapshot": "reference/legacy-site/pages/community__mountain-house.html"
+ },
+ {
+  "url": "/community/lathrop/",
+  "title": "Real Estate in Lathrop, CA | Agent4Life Realty",
+  "words": 3088,
+  "forms": 5,
+  "images": 178,
+  "headings": [
+   "h2: Lathrop",
+   "h1: Lathrop"
+  ],
+  "snapshot": "reference/legacy-site/pages/community__lathrop.html"
+ },
+ {
+  "url": "/community/manteca/",
+  "title": "Manteca, CA Real Estate | Agent4Life Realty",
+  "words": 2831,
+  "forms": 5,
+  "images": 166,
+  "headings": [
+   "h2: Manteca",
+   "h1: Manteca"
+  ],
+  "snapshot": "reference/legacy-site/pages/community__manteca.html"
+ },
+ {
+  "url": "/community/dublin/",
+  "title": "Dublin, CA Real Estate | Agent4Life Realty",
+  "words": 1441,
+  "forms": 5,
+  "images": 43,
+  "headings": [
+   "h2: Dublin",
+   "h1: Dublin"
+  ],
+  "snapshot": "reference/legacy-site/pages/community__dublin.html"
+ },
+ {
+  "url": "/community/livermore/",
+  "title": "Real Estate in Livermore, CA | Agent4Life Realty",
+  "words": 2520,
+  "forms": 5,
+  "images": 121,
+  "headings": [
+   "h2: Livermore",
+   "h1: Livermore"
+  ],
+  "snapshot": "reference/legacy-site/pages/community__livermore.html"
+ },
+ {
+  "url": "/properties/",
+  "title": "Properties - Emad Basma, Agent4Life Realty",
+  "words": 2372,
+  "forms": 3,
+  "images": 124,
+  "headings": [
+   "h1: Properties"
+  ],
+  "snapshot": "reference/legacy-site/pages/properties.html"
+ },
+ {
+  "url": "/sold/",
+  "title": "Past Transactions | Agent 4 Life",
+  "words": 1516,
+  "forms": 3,
+  "images": 40,
+  "headings": [
+   "h1: Sold"
+  ],
+  "snapshot": "reference/legacy-site/pages/sold.html"
+ },
+ {
+  "url": "/search/",
+  "title": "Search - Emad Basma, Agent4Life Realty",
+  "words": 515,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Search"
+  ],
+  "snapshot": "reference/legacy-site/pages/search.html"
+ },
+ {
+  "url": "/testimonials/",
+  "title": "Testimonials | Agent 4 Life",
+  "words": 815,
+  "forms": 1,
+  "images": 3,
+  "headings": [
+   "h1: Testimonials",
+   "h3: Sume Aktar",
+   "h2: Sume Aktar",
+   "h3: Angelina Lopez Luviano",
+   "h2: Angelina Lopez Luviano",
+   "h3: Karen",
+   "h2: Karen",
+   "h3: Andrew Sokoloski",
+   "h2: Andrew Sokoloski",
+   "h3: Danielle Faasisila",
+   "h2: Danielle Faasisila",
+   "h3: Mai Lam",
+   "h2: Mai Lam",
+   "h3: Yesenia Delcarpio",
+   "h2: Yesenia Delcarpio",
+   "h3: Fam Del Carpio",
+   "h2: Fam Del Carpio",
+   "h3: Nette L",
+   "h2: Nette L"
+  ],
+  "snapshot": "reference/legacy-site/pages/testimonials.html"
+ },
+ {
+  "url": "/latest-news/",
+  "title": "Latest News - Emad Basma, Agent4Life Realty",
+  "words": 965,
+  "forms": 1,
+  "images": 3,
+  "headings": [
+   "h2: Tishman Speyer Seeks $100 Million Abatement for Hudson Yards Office",
+   "h2: Cold Storage Giant Sues Over Rooftop Solar Fire at Los Angeles Warehouse",
+   "h2: Affordable Housing Leads Nashville\u2019s Stadium District, Reversing Industry Norms",
+   "h2: Philadelphia REIT Assembles 44,000-Unit Platform With Midwest Addition",
+   "h2: Data Center Supply Chain Bottlenecks Slow AI Infrastructure Rollout",
+   "h2: Downtown San Francisco\u2019s Shuttered Megamall Tests Adaptive Reuse Limits",
+   "h2: Nature vs. nurture: Malibu\u2019s wonders outweigh regulatory handholding for some",
+   "h2: LA County dishes out $220M for affordable housing projects",
+   "h2: TA Realty buys Anaheim apartments for $148M as local multifamily vacancy rises",
+   "h2: $325M Irvine office sale nears all-time record for Orange County",
+   "h2: Arcadia officials sign off on more resi, retail near Metro",
+   "h2: Selena Gomez finds buyer for Tom Petty\u2019s former Encino home"
+  ],
+  "snapshot": "reference/legacy-site/pages/latest-news.html"
+ },
+ {
+  "url": "/social-media/",
+  "title": "Social Media - Emad Basma, Agent4Life Realty",
+  "words": 415,
+  "forms": 1,
+  "images": 3,
+  "headings": [
+   "h1: Social Media",
+   "h2: Join our followers"
+  ],
+  "snapshot": "reference/legacy-site/pages/social-media.html"
+ },
+ {
+  "url": "/contact/",
+  "title": "Contact - Emad Basma, Agent4Life Realty",
+  "words": 508,
+  "forms": 2,
+  "images": 4,
+  "headings": [
+   "h1: Contact",
+   "h2: Emad Basma",
+   "h3: View Properties",
+   "h3: What\u2019s My Home Worth?",
+   "h3: Help Me Relocate"
+  ],
+  "snapshot": "reference/legacy-site/pages/contact.html"
+ },
+ {
+  "url": "/sitemap/",
+  "title": "Sitemap - Emad Basma, Agent4Life Realty",
+  "words": 474,
+  "forms": 1,
+  "images": 3,
+  "headings": [
+   "h1: Sitemap"
+  ],
+  "snapshot": "reference/legacy-site/pages/sitemap.html"
+ },
+ {
+  "url": "/privacy-policy/",
+  "title": "Privacy Policy - Emad Basma, Agent4Life Realty",
+  "words": 777,
+  "forms": 1,
+  "images": 3,
+  "headings": [
+   "h1: Privacy Policy",
+   "h1: 1. Information We Collect",
+   "h1: 2. How We Use Your Information",
+   "h1: 3. Sharing Your Information",
+   "h1: 4. Cookies & Tracking Technologies",
+   "h1: 5. Data Security",
+   "h1: 6. Your Rights & Choices",
+   "h1: 7. Third-Party Links",
+   "h1: 8. Changes to This Policy",
+   "h1: 9. Contact Us"
+  ],
+  "snapshot": "reference/legacy-site/pages/privacy-policy.html"
+ },
+ {
+  "url": "/buyer/deciding-to-buy/",
+  "title": "Buyer's Guide | Agent 4 Life",
+  "words": 569,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Deciding to Buy",
+   "h3: Why Do You Want To Buy?",
+   "h3: Has Your Income Grown?"
+  ],
+  "snapshot": "reference/legacy-site/pages/buyer__deciding-to-buy.html"
+ },
+ {
+  "url": "/buyer/preparing-to-buy/",
+  "title": "Preparing to Buy - Emad Basma, Agent4Life Realty",
+  "words": 603,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Preparing to Buy",
+   "h3: Build Your Green File.",
+   "h3: Check Your Credit Rating.",
+   "h3: Be Careful With Your Finances."
+  ],
+  "snapshot": "reference/legacy-site/pages/buyer__preparing-to-buy.html"
+ },
+ {
+  "url": "/buyer/choose-a-real-estate-agent/",
+  "title": "Choose a Real Estate Agent - Emad Basma, Agent4Life Realty",
+  "words": 616,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Choose a Real Estate Agent",
+   "h3: Here are some factors to consider when choosing your real estate professional:"
+  ],
+  "snapshot": "reference/legacy-site/pages/buyer__choose-a-real-estate-agent.html"
+ },
+ {
+  "url": "/buyer/time-to-go-shopping/",
+  "title": "Time to go shopping - Emad Basma, Agent4Life Realty",
+  "words": 579,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Time to go shopping",
+   "h3: Take a Drive.",
+   "h3: Narrow Your Search.",
+   "h3: Time to Buy."
+  ],
+  "snapshot": "reference/legacy-site/pages/buyer__time-to-go-shopping.html"
+ },
+ {
+  "url": "/buyer/escrow-inspections-appraisals/",
+  "title": "Escrow inspections & appraisals - Emad Basma, Agent4Life Realty",
+  "words": 1329,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Escrow inspections & appraisals",
+   "h3: The Process, Step-by-Step",
+   "h3: The Initial Agreement and Deposit.",
+   "h3: The Closing Agent.",
+   "h3: How to Hold Title.",
+   "h3: Inspections.",
+   "h3: Appraisal and Lending.",
+   "h3: Association Approval.",
+   "h3: Property Insurance."
+  ],
+  "snapshot": "reference/legacy-site/pages/buyer__escrow-inspections-appraisals.html"
+ },
+ {
+  "url": "/buyer/moving-in/",
+  "title": "Moving In - Emad Basma, Agent4Life Realty",
+  "words": 733,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Moving In",
+   "h3: Closing Day",
+   "h3: Final Walk-Through Inspection.",
+   "h3: Home Services and Utilities.",
+   "h3: Be Prepared.",
+   "h3: Closing."
+  ],
+  "snapshot": "reference/legacy-site/pages/buyer__moving-in.html"
+ },
+ {
+  "url": "/seller/deciding-to-sell/",
+  "title": "Sell Your House Fast in Tracy, CA | Agent4Life Realty",
+  "words": 758,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Deciding to Sell",
+   "h3: Why Sell?",
+   "h3: When Should I Sell?",
+   "h3: What Is The Market Like?",
+   "h3: How Do I Optimize My Finances?"
+  ],
+  "snapshot": "reference/legacy-site/pages/seller__deciding-to-sell.html"
+ },
+ {
+  "url": "/seller/select-an-agent-price/",
+  "title": "Select an agent & price - Emad Basma, Agent4Life Realty",
+  "words": 812,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Select an agent & price",
+   "h3: Why Should You Choose Our Professionals?",
+   "h3: What To Look For In An Agent.",
+   "h3: What Is Your Property Worth?"
+  ],
+  "snapshot": "reference/legacy-site/pages/seller__select-an-agent-price.html"
+ },
+ {
+  "url": "/seller/prepare-to-sell/",
+  "title": "Prepare to Sell - Emad Basma, Agent4Life Realty",
+  "words": 678,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Prepare to Sell",
+   "h3: What To Do To Prepare:"
+  ],
+  "snapshot": "reference/legacy-site/pages/seller__prepare-to-sell.html"
+ },
+ {
+  "url": "/seller/accepting-an-offer/",
+  "title": "Accepting an offer - Emad Basma, Agent4Life Realty",
+  "words": 780,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Accepting an offer",
+   "h3: The Price Is Not Always Right.",
+   "h3: Negotiating The Right Way.",
+   "h3: The Initial Agreement and Deposit."
+  ],
+  "snapshot": "reference/legacy-site/pages/seller__accepting-an-offer.html"
+ },
+ {
+  "url": "/seller/escrow-inspections-appraisals/",
+  "title": "Escrow inspections & appraisals - Emad Basma, Agent4Life Realty",
+  "words": 920,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Escrow inspections & appraisals",
+   "h3: Inspections and Appraisals",
+   "h3: The Closing Agent.",
+   "h3: Contingencies.",
+   "h3: Loan Approval and Appraisal."
+  ],
+  "snapshot": "reference/legacy-site/pages/seller__escrow-inspections-appraisals.html"
+ },
+ {
+  "url": "/seller/close-of-escrow/",
+  "title": "Close of escrow - Emad Basma, Agent4Life Realty",
+  "words": 717,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Close of escrow",
+   "h3: Closing Day",
+   "h3: Final Walk-Through Inspection.",
+   "h3: Cancel Home Services and Utilities.",
+   "h3: Be Prepared.",
+   "h3: Closing."
+  ],
+  "snapshot": "reference/legacy-site/pages/seller__close-of-escrow.html"
+ },
+ {
+  "url": "/finance/getting-started/",
+  "title": "Getting Started - Emad Basma, Agent4Life Realty",
+  "words": 671,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Getting Started",
+   "h3: Start A Green File",
+   "h3: Check Your Credit Rating",
+   "h3: Savings & Debt",
+   "h3: Toe The Line"
+  ],
+  "snapshot": "reference/legacy-site/pages/finance__getting-started.html"
+ },
+ {
+  "url": "/finance/know-the-numbers/",
+  "title": "Know the numbers - Emad Basma, Agent4Life Realty",
+  "words": 756,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Know the numbers",
+   "h3: Credit Report",
+   "h3: Application / Processing Fee",
+   "h3: What is APR?",
+   "h3: Indexes",
+   "h3: Points",
+   "h3: Appraisal Cost",
+   "h3: Miscellaneous Fees",
+   "h3: Prepayment Penalties"
+  ],
+  "snapshot": "reference/legacy-site/pages/finance__know-the-numbers.html"
+ },
+ {
+  "url": "/finance/get-pre-approved/",
+  "title": "Get pre-approved - Emad Basma, Agent4Life Realty",
+  "words": 582,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Get pre-approved",
+   "h3: Does it Help to be Pre-Qualified by a Lender?",
+   "h3: Get Pre-Approved by a Lender"
+  ],
+  "snapshot": "reference/legacy-site/pages/finance__get-pre-approved.html"
+ },
+ {
+  "url": "/finance/shop-for-a-loan/",
+  "title": "Shop for a loan - Emad Basma, Agent4Life Realty",
+  "words": 766,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Shop for a loan",
+   "h3: How to Find a Lender",
+   "h3: Choosing the Right Lender",
+   "h3: Choosing the Right Kind of Loan"
+  ],
+  "snapshot": "reference/legacy-site/pages/finance__shop-for-a-loan.html"
+ },
+ {
+  "url": "/finance/applications-processing/",
+  "title": "Applications & Processing - Emad Basma, Agent4Life Realty",
+  "words": 737,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Applications & Processing",
+   "h3: Mortgage Brokers and Lenders \u2013 Who Does What?",
+   "h3: Filling Out the Application",
+   "h3: Documentation",
+   "h3: Stay in Communication"
+  ],
+  "snapshot": "reference/legacy-site/pages/finance__applications-processing.html"
+ },
+ {
+  "url": "/finance/funding/",
+  "title": "Funding - Emad Basma, Agent4Life Realty",
+  "words": 597,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Funding",
+   "h3: The Signing",
+   "h3: Congratulations!"
+  ],
+  "snapshot": "reference/legacy-site/pages/finance__funding.html"
+ },
+ {
+  "url": "/blog/tips-for-first-time-homebuyers/",
+  "title": "Tips for First-Time Homebuyers - Emad Basma, Agent4Life Realty",
+  "words": 886,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Tips for First-Time Homebuyers"
+  ],
+  "snapshot": "reference/legacy-site/pages/blog__tips-for-first-time-homebuyers.html"
+ },
+ {
+  "url": "/blog/signs-that-now-is-the-time-to-sell-your-home/",
+  "title": "Signs that Now is the Time to Sell Your Home - Emad Basma, Agent4Life Realty",
+  "words": 983,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Signs that Now is the Time to Sell Your Home"
+  ],
+  "snapshot": "reference/legacy-site/pages/blog__signs-that-now-is-the-time-to-sell-your-home.html"
+ },
+ {
+  "url": "/blog/remodeling-projects-that-will-boost-your-homes-value/",
+  "title": "Remodeling Projects That Will Boost Your Home\u2019s Value - Emad Basma, Agent4Life Realty",
+  "words": 1052,
+  "forms": 1,
+  "images": 4,
+  "headings": [
+   "h1: Remodeling Projects That Will Boost Your Home\u2019s Value"
+  ],
+  "snapshot": "reference/legacy-site/pages/blog__remodeling-projects-that-will-boost-your-homes-value.html"
+ },
+ {
+  "url": "/listings/1176-hall-place-oak-lawn-tx/",
+  "title": "1176 Hall Place, Oak Lawn, TX - Emad Basma, Agent4Life Realty",
+  "words": 1020,
+  "forms": 5,
+  "images": 3,
+  "headings": [
+   "h2: Share:",
+   "h2: About This Property",
+   "h2: Property Details",
+   "h2: Interested In 1176 Hall Place Oak Lawn, TX",
+   "h2: Request Info",
+   "h2: Mortgage Calculator",
+   "h2: Schedule a Showing"
+  ],
+  "snapshot": "reference/legacy-site/pages/listings__1176-hall-place-oak-lawn-tx.html"
+ }
+]
